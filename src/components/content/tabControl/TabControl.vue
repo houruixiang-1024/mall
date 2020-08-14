@@ -24,6 +24,7 @@
         methods : {
             itemcilck(index){
                 this.currentIndex = index
+              this.$emit('tabClick',index)//子组件像父组件传递
             }
         }
     }
